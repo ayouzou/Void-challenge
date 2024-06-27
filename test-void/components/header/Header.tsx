@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-
 const Header = () => {
     return (
         <header >
@@ -42,13 +41,9 @@ const Header = () => {
             </div>
             <MobileHeader />
         </header>
-
-
     )
 }
-
 export default Header
-
 const MobileHeader = () => {
     return (
         <div className='min-w-[390px] lg:hidden pl-5 h-[63px] bg-[#FFFFFF] border-b-[1px] border-[#F5F5F5] flex justify-between items-center'>
@@ -64,7 +59,6 @@ const MobileHeader = () => {
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M15.9999 8.2C15.9999 9.92125 15.4412 11.5113 14.4999 12.8013L19.2474 17.5525C19.7162 18.0212 19.7162 18.7825 19.2474 19.2513C18.7787 19.72 18.0174 19.72 17.5487 19.2513L12.8012 14.5C11.5112 15.445 9.92115 16 8.1999 16C3.89115 16 0.399902 12.5088 0.399902 8.2C0.399902 3.89125 3.89115 0.400002 8.1999 0.400002C12.5087 0.400002 15.9999 3.89125 15.9999 8.2ZM8.1999 13.6C11.1812 13.6 13.5999 11.1813 13.5999 8.2C13.5999 5.21875 11.1812 2.8 8.1999 2.8C5.21865 2.8 2.7999 5.21875 2.7999 8.2C2.7999 11.1813 5.21865 13.6 8.1999 13.6Z" fill="#7A00E6" />
                 </svg>
-
             </button>
         </div>
     )

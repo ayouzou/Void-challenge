@@ -1,13 +1,17 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
-import Header from "@/components/header/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+import Main from "@/components/main/Main";
 
+import { Work_Sans } from '@next/font/google'
+
+const sansWork = Work_Sans({
+  subsets: ['latin'],
+  weight: ['700', '100', '200', '500','600','900']
+})
 export default function Home() {
   return (
-    <div>
-      <Header/>
-    </div>
+    <main className={sansWork.className}>
+      <Main />
+    </main>
   );
 }
