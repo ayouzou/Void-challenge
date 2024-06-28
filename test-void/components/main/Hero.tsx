@@ -11,7 +11,7 @@ const Hero = () => {
                 }} >
             </div>
             <div className='md:min-w-[1440px] w-[390px] md:h-[452px] h-[472px] md:top-[62px] top-[232px] absolute'>
-                <div className='md:w-[590px] min-w-[358px] md:h-[452px] h-[468px] top-[2px] md:left-[128px] left-[16px]  rounded-[8px] bg-[#FFFFFF]  relative'>
+                <div className='md:min-w-[590px] w-[358px] md:h-[452px] h-[468px] top-[2px] md:left-[128px] left-[16px]  rounded-[8px] bg-[#FFFFFF]  relative'>
                     <h1 className='absolute text-[#000000] md:min-w-[512.61px] min-w-[292.63px] h-[216px]  md:top-[31.75px] top-[16px] md:left-[32px] left-[16px] font-bold md:size-[44.44px] size-[33.61px] md:leading-[72px] leading-[54px] md:text-[2.7rem] text-[2rem] '>
                         Journée des maladies
                         rares 2024 : L'équité en
