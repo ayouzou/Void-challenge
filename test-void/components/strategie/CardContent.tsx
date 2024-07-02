@@ -108,8 +108,8 @@ const CardFlexible = ({ title, content, image, position }: { title: string, cont
                                     {title}
                                 </h1>
                                 {
-                                    content.map((_) => (
-                                        <p className='font-normal text-[14.5px] leading-[24px] text-[#000000] pr-5  pt-5'>
+                                    content.map((_,index) => (
+                                        <p key={index} className='font-normal text-[14.5px] leading-[24px] text-[#000000] pr-5  pt-5'>
                                             {_}
                                         </p>
                                     ))
@@ -141,8 +141,8 @@ const CardFlexible = ({ title, content, image, position }: { title: string, cont
                                     {title}
                                 </h1>
                                 {
-                                    content.map((_) => (
-                                        <p className='font-normal text-[14.5px] leading-[24px] text-[#000000] pr-5  pt-5'>
+                                    content.map((_,index) => (
+                                        <p key={index} className='font-normal text-[14.5px] leading-[24px] text-[#000000] pr-5  pt-5'>
                                             {_}
                                         </p>
                                     ))

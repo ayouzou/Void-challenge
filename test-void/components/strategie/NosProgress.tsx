@@ -41,7 +41,7 @@ const NosProgress = () => {
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-6 p-3'>
                 {
                     Card_Info.map((info) => (
-                        <CardProgress content={info.content} link={info.link} icon={info.icon} />
+                        <CardProgress key={info.id} content={info.content} link={info.link} icon={info.icon} />
                     ))
                 }
             </div>

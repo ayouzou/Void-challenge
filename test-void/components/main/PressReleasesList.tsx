@@ -33,7 +33,7 @@ const PressReleasesList = () => {
             <Separator />
 
              {info.map((_) => (
-                <CardListPress_/>
+                <CardListPress_ key={_.id} />
             ))} 
             <Separator />
 
