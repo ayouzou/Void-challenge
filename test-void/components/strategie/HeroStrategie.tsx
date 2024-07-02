@@ -28,7 +28,7 @@ const HeroStrategie = () => {
                     </Link>
                     <Link href={'#'} className='w-[22.85px] h-[22.85px] text-[#00000099]'>
                         <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.52075 5.78749L8.17822 7.13002L12.5391 11.5004L8.17822 15.8708L9.52075 17.2133L15.2337 11.5004L9.52075 5.78749Z" fill="black" fill-opacity="0.6" />
+                            <path d="M9.52075 5.78749L8.17822 7.13002L12.5391 11.5004L8.17822 15.8708L9.52075 17.2133L15.2337 11.5004L9.52075 5.78749Z" fill="black" fillOpacity="0.6" />
                         </svg>
                     </Link>
                     <Link href={'#'} className='text-[12.91px] font-normal leading-[24px] text-[#00000099]'>
@@ -36,7 +36,7 @@ const HeroStrategie = () => {
                     </Link>
                     <Link href={'#'} className='w-[22.85px] h-[22.85px] text-[#00000099]'>
                         <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.52075 5.78749L8.17822 7.13002L12.5391 11.5004L8.17822 15.8708L9.52075 17.2133L15.2337 11.5004L9.52075 5.78749Z" fill="black" fill-opacity="0.6" />
+                            <path d="M9.52075 5.78749L8.17822 7.13002L12.5391 11.5004L8.17822 15.8708L9.52075 17.2133L15.2337 11.5004L9.52075 5.78749Z" fill="black" fillOpacity="0.6" />
                         </svg>
                     </Link>
                 </div>

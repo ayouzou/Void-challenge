@@ -11,7 +11,7 @@ const MainCommunication = () => {
                 </Link>
                 <Link href={'#'} className='w-[22.85px] h-[22.85px] top-[4.57px] left-[86.52px] absolute'>
                     <svg className='w-[7.06px] absolute h-[11.43px] top-[5.71px] left-[8.18px] text-[#00000099]' width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2.0409 0.782501L0.698364 2.12503L5.05921 6.4954L0.698364 10.8658L2.0409 12.2083L7.7538 6.4954L2.0409 0.782501Z" fill="black" fill-opacity="0.6" />
+                        <path d="M2.0409 0.782501L0.698364 2.12503L5.05921 6.4954L0.698364 10.8658L2.0409 12.2083L7.7538 6.4954L2.0409 0.782501Z" fill="black" fillOpacity="0.6" />
                     </svg>
                 </Link>
                 <Link href='#' className='w-[38.64px] h-[24px] top-[4.25px] left-[117.37px] font-normal text-[13.13px] leading-[24px] text-[#00000099] absolute'>
@@ -19,7 +19,7 @@ const MainCommunication = () => {
                 </Link>
                 <Link href={'#'} className='w-[22.85px] h-[22.85px] top-[4.57px] left-[163.8px] absolute'>
                     <svg className='w-[7.06px] absolute h-[11.43px] top-[5.71px] left-[8.18px] text-[#00000099]' width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2.0409 0.782501L0.698364 2.12503L5.05921 6.4954L0.698364 10.8658L2.0409 12.2083L7.7538 6.4954L2.0409 0.782501Z" fill="black" fill-opacity="0.6" />
+                        <path d="M2.0409 0.782501L0.698364 2.12503L5.05921 6.4954L0.698364 10.8658L2.0409 12.2083L7.7538 6.4954L2.0409 0.782501Z" fill="black" fillOpacity="0.6" />
                     </svg>
                 </Link>
                 <Link href='#' className='w-[166.76px] h-[24px] top-[4.25px] left-[194.66px] font-normal text-[13.13px] leading-[24px] text-[#000000DE] absolute'>
